@@ -53,7 +53,7 @@ This project implements a single-cycle RV32I RISC-V processor using Verilog HDL.
 
 ### Simulation Waveform
 
-![Simulation Waveform](docs/risc-v_waveform.png)
+![Simulation Waveform](docs/risc_v_waveform.png)
 
 ---
 
