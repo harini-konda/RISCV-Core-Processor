@@ -2,9 +2,7 @@
 
 ## Overview
 
-This project implements a single-cycle RV32I RISC-V processor in Verilog HDL.
-
-The processor supports instruction fetch, decode, execute, memory access, and write-back stages. It was developed to understand the complete hardware and software flow of a RISC-V processor.
+This project implements a single-cycle RV32I RISC-V processor using Verilog HDL. It was developed to understand the complete RISC-V processor architecture, including instruction fetch, decode, execute, memory access, and write-back stages, along with the software-to-hardware execution flow.
 
 ---
 
@@ -13,25 +11,27 @@ The processor supports instruction fetch, decode, execute, memory access, and wr
 - Single-cycle RV32I processor
 - Verilog HDL implementation
 - Modular RTL design
-- Testbench for simulation
-- Software written in C and RISC-V Assembly
-- Waveform verification
+- Functional verification using a Verilog testbench
+- Software program developed in C
+- Generated RISC-V assembly to understand instruction execution
+- Waveform-based simulation and verification
 
 ---
 
 ## Folder Structure
 
-rtl/
-- RTL source files
+**rtl/**
+- RTL source files for the RISC-V processor
 
-software/
-- C and Assembly programs
+**software/**
+- C source program
+- Generated RISC-V assembly 
 
-testbench/
-- Testbench
+**testbench/**
+- Verilog testbench for processor verification
 
-docs/
-- Block diagram
+**docs/**
+- Processor block diagram
 - Simulation waveform
 
 ---
@@ -39,5 +39,24 @@ docs/
 ## Tools Used
 
 - Verilog HDL
-- VS Code
-- Vivado Simulator
+- Xilinx Vivado
+- Visual Studio Code (VS Code)
+- GNU RISC-V Toolchain
+
+---
+
+## Documentation
+
+### Processor Block Diagram
+
+![Block Diagram](docs/risc-v_block_diagram.png)
+
+### Simulation Waveform
+
+![Simulation Waveform](docs/risc-v_waveform.png)
+
+---
+
+## Author
+
+**Konda Harini**
