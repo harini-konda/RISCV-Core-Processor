@@ -1,0 +1,8 @@
+# Generated files
+*.o
+*.elf
+*.bin
+*.hex
+
+# Linker script
+linker.ld
